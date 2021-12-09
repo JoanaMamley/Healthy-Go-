@@ -19,7 +19,7 @@
             <h4>Back to <a href="index.php" class="sign-in">Home page</a> </h4>
         </div>
 		<form class="login_form" action="login.php" method="post" name="form">
-			<?php //include('errors.php'); ?>
+			<?php include('errors.php'); ?>
 			<div class="font">
 				<label>Username</label>
 				<input autocomplete="off" type="text" name="username" autocomplete="off">
