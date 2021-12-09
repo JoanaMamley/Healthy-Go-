@@ -153,7 +153,7 @@
     <br>
     <div class="footer">
         <div class="wrapper">
-            <p class="text-center"> &copy; 2021 All rights reserved. HealthyGo. Developed by - <a href="https://github.com/Web-Technologies-2021-Team-Zero/team-project" target="_blank" class="footer-link">Joana Teye</a> </p>
+            <p class="text-center"> &copy; 2021 All rights reserved. HealthyGo. Developed by - <a href="https://github.com/Joana-cyber/Healthy-Go-" target="_blank" class="footer-link">Joana Teye</a> </p>
         </div>
     </div>
 </body>
