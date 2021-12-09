@@ -1,0 +1,159 @@
+  /* CSSS for navbar section */
+*{
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+  background-color: white;
+  height: 100px;
+}
+
+.nav-section{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.7%;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.text-right{
+  text-align: right;
+  margin-right: 0px;
+}
+
+.clearfix{
+  clear: both;
+  float: none;
+}
+
+.logo{
+  width: 5%;
+  height: 1%;
+  float: left;
+}
+.btn-logout{
+	/* margin: 45px 0 0px 0; */
+  margin-bottom: 5px;
+  margin-top: 35px;
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #105381;
+	border-radius: 3px;
+	border: 1px solid #0a3d62;
+	transition: .5s;
+}
+.btn-logout:hover{
+	background: #0a3d62;
+}
+
+.btn-add{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 200px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #ff4757;
+	border-radius: 3px;
+	border: 1px solid #b30000;
+	transition: .5s;
+}
+.btn-add:hover{
+	background: #b30000;
+}
+
+.btn-link{
+  text-decoration: none;
+  color: white
+}
+
+/* CSS for page title Section */
+
+.page-title{
+  background-image: url(../image/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5% 0;
+}
+
+
+.heading{
+  color:white;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+  font-size: 3rem;
+}
+
+  /* CSSS for main content */
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #105381;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #105381;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #105381;
+  }
+
+  .btn-update{
+    margin: 45px 0 0px 0;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #105381;
+    border-radius: 3px;
+    border: 1px solid #0a3d62;
+    transition: .5s;
+  }
+  .btn-update:hover{
+    background: #0a3d62;
+  }
+  

@@ -1,0 +1,240 @@
+  /* CSSS for navbar section */
+  *{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-bar{
+    height: 100px;
+  }
+  
+  .nav-section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.7%;
+  }
+  
+  .img-responsive{
+    width: 100%;
+  }
+  
+  .text-right{
+    text-align: right;
+    margin-right: 0px;
+  }
+  
+  .clearfix{
+    clear: both;
+    float: none;
+  }
+  
+  .logo{
+    width: 5%;
+    height: 0.5%;
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+ .btn-login{
+	/* margin: 45px 0 0px 0; */
+    margin-bottom: 5px;
+    margin-top: 15px;
+	height: 40px;
+	width: 200px;
+    text-align: center;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #0a3d62;
+	border-radius: 3px;
+	border: 1px solid white;
+	transition: .5s;
+    margin-left: 85%;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+.btn-login:hover{
+	background:#0a3d62;
+	color: #ced6e0;
+}
+  
+  .btn-link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* CSS for page title Section */
+  
+  .page-title{
+    background-image: url(../image/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+    height: 1000px;
+  }
+  
+  
+  .heading{
+    position: absolute;
+    width: 570px;
+    height: 134px;
+    left: 72px;
+    top: 177px;
+    font-family: Droid Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color:white;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .sub-heading{
+    position: absolute;
+    width: 636px;
+    height: 78px;
+    left: 72px;
+    top: 323px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #E1E1E1;
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  .vector{
+    position: absolute;
+    left: 15.21%;
+    right: -15.18%;
+    top: 0.2%;
+    bottom: 0.11%;
+    margin-top: 550px;
+  }
+
+  .scroll{
+    position: absolute;
+    width: 105px;
+    height: 35px;
+    left: 72px;
+    top: 697px;
+    font-family: Handlee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-left: 100px;
+    white-space: nowrap;
+  }
+
+  /* CSS for hospitals */
+    .categories{
+      padding: 4% 0;
+    }
+
+    .box-3{
+      width: 28%;
+      float: left;
+      margin: 2%;
+    }
+
+    .float-text{
+      /*position: relative;*/
+      bottom: 50px;
+      left: 50%;
+      text-align: center;
+  }
+
+    .text-color{
+      color:#105381;
+    }
+
+    /* CSS for filters */
+    .btn-filter{
+      /* background-color: #cc0000; */
+      padding: 10px 15px;
+      color: #0a3d62;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 3%;
+      border: 2px solid #0a3d62;
+      background-color: #f1f2f6 ;
+      font-size: 16px;
+      margin-left: 120px;
+      width: 150%;
+  }
+  
+  .btn-filter:hover{
+      background-color: #ced6e0;
+  }
+      
+    /* CSS for main content */
+    
+    .content-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      min-width: 800px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .content-table thead tr {
+      background-color: #105381;
+      color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+    }
+    
+    .content-table th,
+    .content-table td {
+      padding: 12px 15px;
+    }
+    
+    .content-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    
+    .content-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+    
+    .content-table tbody tr:last-of-type {
+      border-bottom: 2px solid #105381;
+    }
+    
+    .content-table tbody tr.active-row {
+      font-weight: bold;
+      color: #105381;
+    }
+
+    .clearfix{
+      float: none;
+      clear: both;
+  }
+
+    /* CSS for footer */
+    .wrapper{
+      padding: 1%;
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .footer-link{
+    text-decoration: none;
+    color: #105381;
+}
+    
