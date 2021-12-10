@@ -23,7 +23,7 @@
                 </a>
             </div>
             <div class="text-right">
-                <button class="btn-logout"> <a href="index.php" class="btn-link">Sign Out</a> </button>
+                <button class="btn-logout"> <a href=".\index.php" class="btn-link">Sign Out</a> </button>
             </div>
             <div class="clearfix"></div>
         </div>
