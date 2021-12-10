@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/dashboard.css">
     <link rel="shortcut icon" type="image/jpg" href="./image/favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
        <!-- Navbar Section Starts Here -->
@@ -79,7 +80,7 @@
                     <td>'.$workinghours.'</td>
                     <td>'.$insurances.'</td>
                     <td><button class="btn-update my-2"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
-                    <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>
+                    <button class="btn btn-danger remove"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>
                     </td>
                 </tr>
                 ';

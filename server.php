@@ -45,7 +45,7 @@
             mysqli_query($conn, $query);
             $_SESSION['username'] = $username;
             $_SESSION['success'] = "You are now logged in";
-            header("location: ./login.php");
+            header("location: ./dashboard.php");
         }
     }
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 09, 2021 at 10:05 PM
+-- Generation Time: Dec 10, 2021 at 09:08 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.3.21
 
@@ -36,23 +36,24 @@ CREATE TABLE IF NOT EXISTS `hospitals` (
   `workinghours` varchar(100) NOT NULL,
   `insurances` varchar(500) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `hospitals`
 --
 
 INSERT INTO `hospitals` (`id`, `name`, `location`, `services`, `workinghours`, `insurances`) VALUES
-(1, 'KorleBu', 'Accra', 'General', '24/7', 'Nationwide,NHIS'),
-(13, 'Colins', 'Lapaz', 'Skincare,dermatology', '8am-6pm', 'NHIS'),
-(7, 'St Johns', 'Lapaz', 'Gynaecology, Child Health, Consultation', '24/7', 'NHIS'),
+(19, 'Madina Community Hospital', 'Madina', 'General consultations', '24/7', 'Nationwide,NHIS,Rubins'),
+(20, 'Lapaz Community Hospital', 'Lapaz', 'General', '24/7', 'Nationwide,NHIS'),
 (14, 'Legon Community Hospital', 'Legon', 'General', '24/7', 'NHIS,Nationwide,Rubins'),
-(8, 'Ridge', 'Accra', 'General', '24/7', 'Nationwide,NHIS'),
-(9, '37 Military Hospital', 'Accra', 'General', '24/7', 'Nationwide,NHIS'),
-(11, 'Madina Community Hospital', 'Madina', 'General', '24/7', 'NHIS'),
+(21, 'St. Johns Hospital', 'Lapaz', 'Gynaecology, Child Health', '24/7', 'NHIS,Rubins'),
+(18, 'KorleBu', 'Accra', 'General', '24/7', 'NHIS,Nationwide'),
 (15, 'Greenville Hospital', 'Tema', 'General', '24/7', 'NHIS'),
 (16, 'Narh-Bita Hospital', 'Tema', 'General consultation', '24/7', 'Nationwide,Rubins'),
-(17, 'MediCare', 'Madina', 'Dental care', '8am-5pm', 'Nationwide,Rubins');
+(17, 'MediCare', 'Madina', 'Dental care', '8am-5pm', 'Nationwide,Rubins'),
+(22, 'Ridge Hospital', 'Accra', 'General', '24/7', 'NHIS,Natinwide,Rubins'),
+(23, 'PharsCare', 'Accra', 'Dental Care', '8am-5pm', 'Nationwide,Rubins'),
+(24, 'PediactricCare', 'Accra', 'Child Health', '24/7', 'NHIS,Nationwide');
 
 -- --------------------------------------------------------
 
@@ -67,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
@@ -92,7 +93,9 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
 (22, 'Calvin', 'calvin@gmail.com', '25d55ad283aa400af464c76d713c07ad'),
 (23, 'Paul', 'paul@gmail.com', 'c33367701511b4f6020ec61ded352059'),
 (24, 'Peter', 'peter@gmail.com', '6c44e5cd17f0019c64b042e4a745412a'),
-(25, 'Uriah', 'uriah@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+(25, 'Uriah', 'uriah@gmail.com', 'e10adc3949ba59abbe56e057f20f883e'),
+(26, 'Bridget', 'bridget@example.com', '25d55ad283aa400af464c76d713c07ad'),
+(27, 'Silas', 'silas234@gmail.com', '25d55ad283aa400af464c76d713c07ad');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

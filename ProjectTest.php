@@ -5,6 +5,6 @@ final class ProjectTest extends TestCase
 {
     public function testFailure(): void
     {
-        $this->assertDirectoryExists('backend');
+        $this->assertDirectoryExists('..\Final-Project');
     }
 }
