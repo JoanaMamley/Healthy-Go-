@@ -16,7 +16,7 @@
             <img src="./image/logo.jpg" alt="Logo" id="login-logo" />
         </div>
         <div class="header">
-            <h2>Sign Up</h2>
+            <h2>Add Admin</h2>
             <a href="dashboard.php" class="sign-in"><h3 class="text-color">Go back to dashboard </h3></a> 
         </div>
         <form id="form" action="signup.php" method="post" class="form">
